@@ -3,7 +3,7 @@ import pytest
 
 from src.interpolation import interp
 
-arr = np.array([[1, 2, 3, 4], [2, 4, 6, 8]])
+arr = np.array([[1, 2], [2, 4], [3, 6], [4, 8]])
 
 
 @pytest.mark.parametrize(
