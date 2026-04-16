@@ -37,7 +37,7 @@ def alcohol():
         print("What data is provided?\n0 = Density\n1 = %Vol\n2 = %mas\n3 = gA/100ml\n")
         try:
             inrow = int(input())
-        except TypeError:
+        except ValueError:
             print("invalid input")
             continue
         if not 0 <= inrow <= 3:
@@ -46,7 +46,7 @@ def alcohol():
         print("provided value:")
         try:
             value = float(input())
-        except TypeError:
+        except ValueError:
             print("invalid input")
             continue
         # if not 0<=value<=100:
@@ -55,7 +55,7 @@ def alcohol():
         print("Provide expected ouput Datatype (see input)")
         try:
             outrow = int(input())
-        except TypeError:
+        except ValueError:
             print("invalid input")
             continue
         if not 0 <= outrow <= 3:
@@ -78,13 +78,13 @@ def shugar():
         print("Povide input data type:\n0 = Denity\n1 = %mas\n3 = gram/100ml\n")
         try:
             inType = int(input())
-        except TypeError:
+        except ValueError:
             print("invalid Input")
             continue
         print("Provide input value")
         try:
             inVal = float(input())
-        except TypeError:
+        except ValueError:
             print("invalid input")
             continue
         print("Provide output data type (see input)")
