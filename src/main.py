@@ -1,9 +1,7 @@
-import numpy as np
-
-from src.input_validation import getControl, getFloat, getInt
-from src.interpolation import interp
-from src.readData import readTable
-from src.shugar_calculations import shugars
+from input_validation import getControl, getFloat, getInt
+from interpolation import interp
+from readData import readTable
+from shugar_calculations import shugars
 
 
 def main():
