@@ -2,6 +2,8 @@ import numpy as np
 
 
 def interp(array, inrow, outrow, value):
+    if inrow == outrow:
+        return "you serious?"
     if value in array[:, inrow]:
         index = np.where(array[:, inrow] == value)
         return array[index, outrow]

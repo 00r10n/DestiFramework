@@ -3,7 +3,9 @@ dens_water = 1
 
 
 def shugars(inType, outType, value):
-    if inType == 1:
+    if inType == outType:
+        return "you serious?"
+    if inType == 2:
         if outType == 0:
             return masToDens(value)
         if outType == 3:
