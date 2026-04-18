@@ -2,7 +2,7 @@ dens_sugar = 1.6
 dens_water = 1
 
 
-def shugars(inType, outType, value):
+def sugars(inType, outType, value):
     if inType == outType:
         return "you serious?"
     if inType == 2:
