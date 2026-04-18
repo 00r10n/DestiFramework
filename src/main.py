@@ -1,7 +1,7 @@
 from input_validation import getControl, getFloat, getInt
 from interpolation import interp
 from readData import readTable
-from shugar_calculations import sugars
+from sugar_calculations import sugars
 
 
 def main():
