@@ -7,6 +7,7 @@ A collection of functions to perform mathematical operations often needed in a d
 1. Clone the Repo (code button in the top right corner)
 2. Copy the latest release folder for Windows from the dist/ folder (Windwos releases end with "w")
 3. To run the Programm, simply execute the main.exe file in the downloaded Folder
+
 Sometimes Windows Smart App Control may block the exe from being executed. I don't yet have a good Solution for that
 
 ## Getting Started Linux:
