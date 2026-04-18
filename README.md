@@ -4,8 +4,9 @@ A collection of functions to perform mathematical operations often needed in a d
 
 # Installing
 ## Getting Started Windows:
-1. Download the latest release from dist/ folder (Windwos releases end with "w")
-2. To run the Programm, simply execute the main.exe file in the downloaded Folder
+1. Clone the Repo (code button in the top right corner)
+2. Copy the latest release folder for Windows from the dist/ folder (Windwos releases end with "w")
+3. To run the Programm, simply execute the main.exe file in the downloaded Folder
 
 ## Getting Started Linux:
 1. Same as on Windows, but the file ends with "l"
