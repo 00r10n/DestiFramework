@@ -13,10 +13,10 @@ def shugars(inType, outType, value):
 
 
 def masToDens(mas):
-    dens = 100 / (mas / dens_shugar + (100 - mas) / dens_water)
+    dens = 100 / (mas / dens_sugar + (100 - mas) / dens_water)
     return dens
 
 
 def masToPer100(mas):
-    per100 = mas / (mas / dens_shugar + (100 - mas) / dens_water) * 100
+    per100 = mas / (mas / dens_sugar + (100 - mas) / dens_water) * 100
     return per100
