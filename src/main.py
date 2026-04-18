@@ -1,7 +1,7 @@
 from input_validation import getControl, getFloat, getInt
 from interpolation import interp
 from readData import readTable
-from shugar_calculations import shugars
+from shugar_calculations import sugars
 
 
 def main():
@@ -11,7 +11,7 @@ def main():
 
     while True:
         print("--- Desti helper main menue ---")
-        print("A = Alcohol\nS = Shugar\nX = Exit")
+        print("A = Alcohol\nS = Sugar\nX = Exit")
 
         cmd = getControl("aAsSxX")
         if cmd is None:
@@ -22,7 +22,7 @@ def main():
             print("\n\n")
             continue
         if cmd in "Ss":
-            shugar()
+            sugar()
             print("\n\n")
             continue
         if cmd in "Xx":
@@ -57,11 +57,11 @@ def alcohol():
             return
 
 
-def shugar():
+def sugar():
     while True:
         print("---Under construction---")
         print(
-            "\n---Shugar calculations---\ncurrently only %mas input allowed\n-------------------------\n"
+            "\n---Sugar calculations---\ncurrently only %mas input allowed\n-------------------------\n"
         )
         print("Povide input data type:\n0 = Density\n2 = %mas\n3 = gram/100ml\n")
 
@@ -72,7 +72,7 @@ def shugar():
             continue
 
         print("Provide input value")
-        inVal = getFloat("shugar", inType)
+        inVal = getFloat("sugar", inType)
         if inVal is None:
             continue
 
