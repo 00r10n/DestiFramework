@@ -80,7 +80,7 @@ def sugar():
         outType = getInt("023")
         if outType is None:
             continue
-        outVal = shugars(inType, outType, inVal)
+        outVal = sugars(inType, outType, inVal)
         print(f"\nCalculation returned: {outVal}\n--------------")
 
         print("\n\nn for next, x to return to Menu")
