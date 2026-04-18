@@ -1,4 +1,4 @@
-dens_shugar = 1.6
+dens_sugar = 1.6
 dens_water = 1
 
 
