@@ -4,10 +4,9 @@ A collection of functions to perform mathematical operations often needed in a d
 
 # Installing
 ## Getting Started Windows:
-1. Download the Repo (code button in the top right corner -> download Zip)
-2. Copy the latest release folder for Windows from the dist/ folder (Windwos releases end with "w") somewhere you want to keep it.
-3. When the release folder is stored, you can delete the repo, the folder contains everything needed
-4. To run the Programm, simply execute the main.exe file in the downloaded Folder
+1. Find the latest version for your operating system in the dist/ directory (Windows versions end on "w") and download the .zip folder
+2. Unpack the Zip to where ever you want to store the Tool
+3. To run the Programm, simply execute the main.exe file in the downloaded Folder
 
 Sometimes Windows Smart App Control may block the exe from being executed. I don't yet have a good Solution for that
 
